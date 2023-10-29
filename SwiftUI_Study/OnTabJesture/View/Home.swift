@@ -14,18 +14,15 @@ struct Home: View {
     @State private var allTabs: [AnimatedTab] = Tab.allCases.compactMap { tab -> AnimatedTab? in
         return .init(tab: tab)
     }
-    // Bounce Property
-    @State private var bouncesDown: Bool = true
+//     Bounce Property
+//    @State private var bouncesDown: Bool = true
     var body: some View {
         VStack(spacing: 0) {
             TabView(selection: $activeTab) {
                 NavigationStack {
                     VStack {
-                        Image("돈룩업")
-                            .resizable()
-                            .frame(width: 330, height: 420)
+                        Main()
                     }
-                    .navigationTitle(Tab.photos.title)
                 }
                 .setUpTab(.photos)
                 NavigationStack {
@@ -62,22 +59,21 @@ struct Home: View {
                 .setUpTab(.profile)
             }
             
-            // Just For Demo Purpose
-            Picker("", selection: $bouncesDown) {
-                Text("bounces Down")
-                    .tag(true)
-                
-                Text("bounces Up")
-                    .tag(false)
-            }
-            .pickerStyle(.segmented)
-            .padding(.horizontal, 15)
-            .padding(.bottom, 20)
+//             Just For Demo Purpose
+//            Picker("", selection: $bouncesDown) {
+//                Text("bounces Down")
+//                    .tag(true)
+//                
+//                Text("bounces Up")
+//                    .tag(false)
+//            }
+//            .pickerStyle(.segmented)
+//            .padding(.horizontal, 15)
+//            .padding(.bottom, 20)
             
             CustomTabBar()
         }
     }
-    
     
     // Custom Tab Bar
     @ViewBuilder
@@ -89,7 +85,7 @@ struct Home: View {
                 VStack(spacing: 4) {
                     Image(systemName: tab.rawValue)
                         .font(.title2)
-//                        .symbolEffect(bouncesDown ? .bounce.down.byLayer : .bounce.up.byLayer, value: animatedTab.isAnimating) 
+//                        .symbolEffect(bouncesDown ? .bounce.down.byLayer : .bounce.up.byLayer, value: animatedTab.isAnimating)
                     
                     Text(tab.title)
                         .font(.caption2)

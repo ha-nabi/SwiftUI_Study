@@ -18,7 +18,7 @@ enum Tab: String, CaseIterable {
     var title: String {
         switch self {
         case .photos:
-            return "Photos"
+            return "Gallery"
         case .chat:
             return "Chat"
         case .apps:

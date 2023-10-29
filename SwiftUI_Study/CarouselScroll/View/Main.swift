@@ -14,12 +14,6 @@ struct Main: View {
         ScrollView(.vertical) {
             VStack(spacing: 15) {
                 HStack(spacing: 12) {
-                    Button(action: {}, label: {
-                        Image(systemName: "line.3.horizontal")
-                            .font(.title)
-                            .foregroundStyle(.blue)
-                    })
-                    
                     HStack(spacing: 12) {
                         Image(systemName: "magnifyingglass")
                             .foregroundStyle(.gray)
@@ -29,12 +23,18 @@ struct Main: View {
                     .padding(.horizontal, 15)
                     .padding(.vertical, 10)
                     .background(.ultraThinMaterial, in: .capsule)
+                    
+                    Button(action: {}, label: {
+                        Image(systemName: "line.3.horizontal")
+                            .font(.title)
+                            .foregroundStyle(.gray)
+                    })
                 }
-                
                 Text("AppSchool 3rd \nGallery")
                     .font(.largeTitle.bold())
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(.top, 10)
+                
                 
                 // Parallax Carouael
                 GeometryReader(content: { geometry in
@@ -57,7 +57,7 @@ struct Main: View {
                                         // Or you can simply Use scaling
 //                                        .scaleEffect(1.25)
                                         .offset(x: -minX)
-//                                        .frame(width: proxy.size.width * 2.5)
+//                                        .frame(width: proxy.size.width * 2.5) // effect(2)
                                         .frame(width: cardSize.width, height: cardSize.height)
                                         .overlay {
                                             OverlayView(card)
@@ -88,6 +88,7 @@ struct Main: View {
             .padding(15)
         }
         .scrollIndicators(.hidden)
+        
     }
     
     // Overlay View
@@ -120,6 +121,7 @@ struct Main: View {
     }
 }
 
+
 #Preview {
-    ContentView2()
+    Main()
 }

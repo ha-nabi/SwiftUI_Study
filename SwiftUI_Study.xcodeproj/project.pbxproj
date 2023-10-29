@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6354EF352AEE53FD00176E43 /* ParallaxCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6354EF342AEE53FD00176E43 /* ParallaxCarousel.swift */; };
-		6354EF372AEE541100176E43 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6354EF362AEE541100176E43 /* ContentView2.swift */; };
 		6354EF3B2AEE554400176E43 /* TripCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6354EF3A2AEE554400176E43 /* TripCard.swift */; };
 		6354EF3D2AEE561E00176E43 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6354EF3C2AEE561E00176E43 /* Main.swift */; };
 		63C0CF502AED1ED100CBADAD /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C0CF4F2AED1ED100CBADAD /* Tab.swift */; };
@@ -40,8 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6354EF342AEE53FD00176E43 /* ParallaxCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCarousel.swift; sourceTree = "<group>"; };
-		6354EF362AEE541100176E43 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 		6354EF3A2AEE554400176E43 /* TripCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCard.swift; sourceTree = "<group>"; };
 		6354EF3C2AEE561E00176E43 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		63C0CF4F2AED1ED100CBADAD /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
@@ -111,7 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				63C0CF512AED201000CBADAD /* Home.swift */,
-				63DB13702AED06B70044274A /* ContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -142,6 +137,7 @@
 				63E274D52AED4D55008182ED /* CarouselScroll */,
 				63E274D22AED2DBA008182ED /* OnTabJesture */,
 				63DB13722AED06B80044274A /* Assets.xcassets */,
+				63DB13702AED06B70044274A /* ContentView.swift */,
 				63DB136E2AED06B70044274A /* SwiftUI_StudyApp.swift */,
 				63DB13742AED06B80044274A /* Preview Content */,
 			);
@@ -187,8 +183,6 @@
 			children = (
 				6354EF392AEE553300176E43 /* Model */,
 				6354EF382AEE552D00176E43 /* View */,
-				6354EF342AEE53FD00176E43 /* ParallaxCarousel.swift */,
-				6354EF362AEE541100176E43 /* ContentView2.swift */,
 			);
 			path = CarouselScroll;
 			sourceTree = "<group>";
@@ -324,9 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63C0CF502AED1ED100CBADAD /* Tab.swift in Sources */,
-				6354EF352AEE53FD00176E43 /* ParallaxCarousel.swift in Sources */,
 				63DB13712AED06B70044274A /* ContentView.swift in Sources */,
-				6354EF372AEE541100176E43 /* ContentView2.swift in Sources */,
 				63C0CF522AED201000CBADAD /* Home.swift in Sources */,
 				6354EF3B2AEE554400176E43 /* TripCard.swift in Sources */,
 				6354EF3D2AEE561E00176E43 /* Main.swift in Sources */,
