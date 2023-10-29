@@ -21,39 +21,41 @@ struct Home: View {
             TabView(selection: $activeTab) {
                 NavigationStack {
                     VStack {
-                        
+                        Image("돈룩업")
+                            .resizable()
+                            .frame(width: 330, height: 420)
                     }
                     .navigationTitle(Tab.photos.title)
                 }
                 .setUpTab(.photos)
-                
                 NavigationStack {
                     VStack {
-                        
+                        Text("chat")
+                            .foregroundStyle(Color.gray)
                     }
                     .navigationTitle(Tab.chat.title)
                 }
                 .setUpTab(.chat)
-                
                 NavigationStack {
                     VStack {
-                        
+                        Text("apps")
+                            .foregroundStyle(Color.gray)
                     }
                     .navigationTitle(Tab.apps.title)
                 }
                 .setUpTab(.apps)
-                
                 NavigationStack {
                     VStack {
-                        
+                        Text("notifications")
+                            .foregroundStyle(Color.gray)
                     }
                     .navigationTitle(Tab.notifications.title)
                 }
                 .setUpTab(.notifications)
-                
                 NavigationStack {
                     VStack {
-                        
+                        Text("profile")
+                            .foregroundStyle(Color.gray)
                     }
                     .navigationTitle(Tab.profile.title)
                 }
@@ -76,6 +78,7 @@ struct Home: View {
         }
     }
     
+    
     // Custom Tab Bar
     @ViewBuilder
     func CustomTabBar() -> some View {
@@ -86,7 +89,7 @@ struct Home: View {
                 VStack(spacing: 4) {
                     Image(systemName: tab.rawValue)
                         .font(.title2)
-                        .symbolEffect(bouncesDown ? .bounce.down.byLayer : .bounce.up.byLayer, value: animatedTab.isAnimating)
+//                        .symbolEffect(bouncesDown ? .bounce.down.byLayer : .bounce.up.byLayer, value: animatedTab.isAnimating) 
                     
                     Text(tab.title)
                         .font(.caption2)
@@ -118,7 +121,7 @@ struct Home: View {
 }
 
 #Preview {
-    ContentView()
+    Home()
 }
 
 extension View {
