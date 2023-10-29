@@ -31,10 +31,10 @@ struct Main: View {
                     })
                 }
                 Text("AppSchool 3rd \nGallery")
-                    .font(.largeTitle.bold())
+                    .font(.title)
+                    .fontWeight(.bold)
                     .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding(.top, 10)
-                
+                    .padding([.top, .leading], 10)
                 
                 // Parallax Carouael
                 GeometryReader(content: { geometry in
@@ -82,7 +82,7 @@ struct Main: View {
                     .scrollIndicators(.hidden)
                 })
                 .frame(height: 500)
-                .padding(.horizontal, -15)
+                .padding(.horizontal, -15.0)
                 .padding(.top, 10)
             }
             .padding(15)
