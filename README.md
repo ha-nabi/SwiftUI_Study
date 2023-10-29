@@ -1,4 +1,4 @@
-# 멋쟁이 사자처럼 3기 졸업 갤러리 제작중 ~ing
+# likeLion 3rd Gallery ~ing
 
 ### 1. Home Screen LightMode / DarkMode
 <br/>
