@@ -48,16 +48,11 @@ struct Main: View {
                                     let cardSize = proxy.size
 //                                     Simple Parallax Effect (1)
                                     let minX = proxy.frame(in: .scrollView).minX - 30.0
-//                                     Simple Parallax Effect (2)
-//                                    let minX = min((proxy.frame(in: .scrollView).minX - 30.0) * 1.4, size.width * 1.4)
                                     
                                     Image(card.image)
                                         .resizable()
                                         .aspectRatio(contentMode: .fill)
-                                        // Or you can simply Use scaling
-//                                        .scaleEffect(1.25)
                                         .offset(x: -minX)
-//                                        .frame(width: proxy.size.width * 2.5) // effect(2)
                                         .frame(width: cardSize.width, height: cardSize.height)
                                         .overlay {
                                             OverlayView(card)

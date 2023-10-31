@@ -76,6 +76,19 @@ struct Home: View {
                 let tab = animatedTab.tab
                 
                 VStack(spacing: 4) {
+                    // customizing home
+//                    if tab == .home {
+//                        Image(tab.rawValue)
+//                            .resizable()
+//                            .aspectRatio(contentMode: .fit)
+//                            .frame(width: 24, height: 24)
+//                            .font(.title2)
+////                            .symbolEffect(bouncesDown ? .bounce.down.byLayer : .bounce.up.byLayer, value: animatedTab.isAnimating)
+//                    } else {
+//                        Image(systemName: tab.rawValue)
+//                            .font(.title2)
+//                            .symbolEffect(bouncesDown ? .bounce.down.byLayer : .bounce.up.byLayer, value: animatedTab.isAnimating)
+//                    }
                     Image(systemName: tab.rawValue)
                         .font(.title2)
                         .symbolEffect(bouncesDown ? .bounce.down.byLayer : .bounce.up.byLayer, value: animatedTab.isAnimating)

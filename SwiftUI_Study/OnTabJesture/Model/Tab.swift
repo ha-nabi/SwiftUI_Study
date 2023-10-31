@@ -9,10 +9,10 @@ import SwiftUI
 
 /// Tab's
 enum Tab: String, CaseIterable {
-    case home = "bird.fill"
-    case favorite = "heart.fill"
-    case chat = "paperplane.fill"
-    case profile = "person.crop.circle.fill"
+    case home = "bird"
+    case favorite = "heart"
+    case chat = "paperplane"
+    case profile = "person.crop.circle"
     
     var title: String {
         switch self {
