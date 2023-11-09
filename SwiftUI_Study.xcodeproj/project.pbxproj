@@ -19,6 +19,13 @@
 		63DB13802AED06B80044274A /* SwiftUI_StudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB137F2AED06B80044274A /* SwiftUI_StudyTests.swift */; };
 		63DB138A2AED06B80044274A /* SwiftUI_StudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB13892AED06B80044274A /* SwiftUI_StudyUITests.swift */; };
 		63DB138C2AED06B80044274A /* SwiftUI_StudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB138B2AED06B80044274A /* SwiftUI_StudyUITestsLaunchTests.swift */; };
+		63EC168C2AFD3DA9008DD933 /* TimerFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EC16852AFD3DA9008DD933 /* TimerFirst.swift */; };
+		63EC168D2AFD3DA9008DD933 /* TimerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EC16862AFD3DA9008DD933 /* TimerData.swift */; };
+		63EC168E2AFD3DA9008DD933 /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EC16872AFD3DA9008DD933 /* DemoView.swift */; };
+		63EC168F2AFD3DA9008DD933 /* SecondTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EC16882AFD3DA9008DD933 /* SecondTabView.swift */; };
+		63EC16902AFD3DA9008DD933 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EC16892AFD3DA9008DD933 /* Test.swift */; };
+		63EC16912AFD3DA9008DD933 /* FirstTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EC168A2AFD3DA9008DD933 /* FirstTabView.swift */; };
+		63EC16922AFD3DA9008DD933 /* TimerSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EC168B2AFD3DA9008DD933 /* TimerSecond.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +61,13 @@
 		63DB13852AED06B80044274A /* SwiftUI_StudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_StudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DB13892AED06B80044274A /* SwiftUI_StudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_StudyUITests.swift; sourceTree = "<group>"; };
 		63DB138B2AED06B80044274A /* SwiftUI_StudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_StudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		63EC16852AFD3DA9008DD933 /* TimerFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerFirst.swift; sourceTree = "<group>"; };
+		63EC16862AFD3DA9008DD933 /* TimerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerData.swift; sourceTree = "<group>"; };
+		63EC16872AFD3DA9008DD933 /* DemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
+		63EC16882AFD3DA9008DD933 /* SecondTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTabView.swift; sourceTree = "<group>"; };
+		63EC16892AFD3DA9008DD933 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		63EC168A2AFD3DA9008DD933 /* FirstTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTabView.swift; sourceTree = "<group>"; };
+		63EC168B2AFD3DA9008DD933 /* TimerSecond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerSecond.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +159,7 @@
 		63DB136D2AED06B70044274A /* SwiftUI_Study */ = {
 			isa = PBXGroup;
 			children = (
+				63EC16842AFD3D72008DD933 /* LifeCycle */,
 				63929E3E2AF547090042B34C /* PracticeView */,
 				63E274D52AED4D55008182ED /* CarouselScroll */,
 				63E274D22AED2DBA008182ED /* OnTabJesture */,
@@ -196,6 +211,20 @@
 				6354EF382AEE552D00176E43 /* View */,
 			);
 			path = CarouselScroll;
+			sourceTree = "<group>";
+		};
+		63EC16842AFD3D72008DD933 /* LifeCycle */ = {
+			isa = PBXGroup;
+			children = (
+				63EC16872AFD3DA9008DD933 /* DemoView.swift */,
+				63EC168A2AFD3DA9008DD933 /* FirstTabView.swift */,
+				63EC16882AFD3DA9008DD933 /* SecondTabView.swift */,
+				63EC16892AFD3DA9008DD933 /* Test.swift */,
+				63EC16862AFD3DA9008DD933 /* TimerData.swift */,
+				63EC16852AFD3DA9008DD933 /* TimerFirst.swift */,
+				63EC168B2AFD3DA9008DD933 /* TimerSecond.swift */,
+			);
+			path = LifeCycle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,11 +359,18 @@
 			files = (
 				63C0CF502AED1ED100CBADAD /* Tab.swift in Sources */,
 				63929E3D2AF546DF0042B34C /* checkyourmail.swift in Sources */,
+				63EC168F2AFD3DA9008DD933 /* SecondTabView.swift in Sources */,
 				63C0CF522AED201000CBADAD /* Home.swift in Sources */,
+				63EC168E2AFD3DA9008DD933 /* DemoView.swift in Sources */,
+				63EC16912AFD3DA9008DD933 /* FirstTabView.swift in Sources */,
+				63EC16902AFD3DA9008DD933 /* Test.swift in Sources */,
 				6354EF3B2AEE554400176E43 /* TripCard.swift in Sources */,
+				63EC168C2AFD3DA9008DD933 /* TimerFirst.swift in Sources */,
 				6354EF3D2AEE561E00176E43 /* Main.swift in Sources */,
 				63DB136F2AED06B70044274A /* SwiftUI_StudyApp.swift in Sources */,
+				63EC16922AFD3DA9008DD933 /* TimerSecond.swift in Sources */,
 				6312B3D42AFB99C100BCB516 /* Discover.swift in Sources */,
+				63EC168D2AFD3DA9008DD933 /* TimerData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
