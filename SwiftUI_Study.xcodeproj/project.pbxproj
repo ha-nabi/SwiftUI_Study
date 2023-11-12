@@ -26,6 +26,7 @@
 		63EC16902AFD3DA9008DD933 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EC16892AFD3DA9008DD933 /* Test.swift */; };
 		63EC16912AFD3DA9008DD933 /* FirstTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EC168A2AFD3DA9008DD933 /* FirstTabView.swift */; };
 		63EC16922AFD3DA9008DD933 /* TimerSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EC168B2AFD3DA9008DD933 /* TimerSecond.swift */; };
+		63EC17302B00DC8D008DD933 /* DoubleDice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EC172F2B00DC8D008DD933 /* DoubleDice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		63EC16892AFD3DA9008DD933 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		63EC168A2AFD3DA9008DD933 /* FirstTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTabView.swift; sourceTree = "<group>"; };
 		63EC168B2AFD3DA9008DD933 /* TimerSecond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerSecond.swift; sourceTree = "<group>"; };
+		63EC172F2B00DC8D008DD933 /* DoubleDice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleDice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			children = (
 				63929E3C2AF546DF0042B34C /* checkyourmail.swift */,
 				6312B3D32AFB99C100BCB516 /* Discover.swift */,
+				63EC172F2B00DC8D008DD933 /* DoubleDice.swift */,
 			);
 			path = PracticeView;
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 				63DB136F2AED06B70044274A /* SwiftUI_StudyApp.swift in Sources */,
 				63EC16922AFD3DA9008DD933 /* TimerSecond.swift in Sources */,
 				6312B3D42AFB99C100BCB516 /* Discover.swift in Sources */,
+				63EC17302B00DC8D008DD933 /* DoubleDice.swift in Sources */,
 				63EC168D2AFD3DA9008DD933 /* TimerData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
