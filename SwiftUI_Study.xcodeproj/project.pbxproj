@@ -10,6 +10,7 @@
 		6312B3D42AFB99C100BCB516 /* Discover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6312B3D32AFB99C100BCB516 /* Discover.swift */; };
 		6354EF3B2AEE554400176E43 /* TripCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6354EF3A2AEE554400176E43 /* TripCard.swift */; };
 		6354EF3D2AEE561E00176E43 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6354EF3C2AEE561E00176E43 /* Main.swift */; };
+		6389C3742B02626D001C156F /* ScissorsGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6389C3732B02626D001C156F /* ScissorsGame.swift */; };
 		63929E3D2AF546DF0042B34C /* checkyourmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63929E3C2AF546DF0042B34C /* checkyourmail.swift */; };
 		63C0CF502AED1ED100CBADAD /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C0CF4F2AED1ED100CBADAD /* Tab.swift */; };
 		63C0CF522AED201000CBADAD /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C0CF512AED201000CBADAD /* Home.swift */; };
@@ -50,6 +51,7 @@
 		6312B3D32AFB99C100BCB516 /* Discover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discover.swift; sourceTree = "<group>"; };
 		6354EF3A2AEE554400176E43 /* TripCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCard.swift; sourceTree = "<group>"; };
 		6354EF3C2AEE561E00176E43 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		6389C3732B02626D001C156F /* ScissorsGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScissorsGame.swift; sourceTree = "<group>"; };
 		63929E3C2AF546DF0042B34C /* checkyourmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkyourmail.swift; sourceTree = "<group>"; };
 		63C0CF4F2AED1ED100CBADAD /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		63C0CF512AED201000CBADAD /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				63929E3C2AF546DF0042B34C /* checkyourmail.swift */,
 				6312B3D32AFB99C100BCB516 /* Discover.swift */,
 				63EC172F2B00DC8D008DD933 /* DoubleDice.swift */,
+				6389C3732B02626D001C156F /* ScissorsGame.swift */,
 			);
 			path = PracticeView;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6389C3742B02626D001C156F /* ScissorsGame.swift in Sources */,
 				63C0CF502AED1ED100CBADAD /* Tab.swift in Sources */,
 				63929E3D2AF546DF0042B34C /* checkyourmail.swift in Sources */,
 				63EC168F2AFD3DA9008DD933 /* SecondTabView.swift in Sources */,
