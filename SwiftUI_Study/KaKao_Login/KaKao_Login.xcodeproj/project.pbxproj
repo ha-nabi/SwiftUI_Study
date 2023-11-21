@@ -23,6 +23,7 @@
 		63C390032B0CF65700764936 /* KakaoSDKTalk in Frameworks */ = {isa = PBXBuildFile; productRef = 63C390022B0CF65700764936 /* KakaoSDKTalk */; };
 		63C390052B0CF65700764936 /* KakaoSDKTemplate in Frameworks */ = {isa = PBXBuildFile; productRef = 63C390042B0CF65700764936 /* KakaoSDKTemplate */; };
 		63C390072B0CF65700764936 /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = 63C390062B0CF65700764936 /* KakaoSDKUser */; };
+		63C3900F2B0D087100764936 /* KaKaoAuthVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C3900E2B0D087100764936 /* KaKaoAuthVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		63C38FE52B0CF5B200764936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63C38FE82B0CF5B200764936 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		63C390082B0CF6CE00764936 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = SOURCE_ROOT; };
+		63C390092B0CF7C000764936 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		63C3900E2B0D087100764936 /* KaKaoAuthVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaKaoAuthVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +82,10 @@
 				63C390082B0CF6CE00764936 /* info.plist */,
 				63C38FE12B0CF5B100764936 /* KaKao_LoginApp.swift */,
 				63C38FE32B0CF5B100764936 /* ContentView.swift */,
+				63C3900E2B0D087100764936 /* KaKaoAuthVM.swift */,
 				63C38FE52B0CF5B200764936 /* Assets.xcassets */,
 				63C38FE72B0CF5B200764936 /* Preview Content */,
+				63C390092B0CF7C000764936 /* Config.xcconfig */,
 			);
 			path = KaKao_Login;
 			sourceTree = "<group>";
@@ -182,6 +187,7 @@
 			files = (
 				63C38FE42B0CF5B100764936 /* ContentView.swift in Sources */,
 				63C38FE22B0CF5B100764936 /* KaKao_LoginApp.swift in Sources */,
+				63C3900F2B0D087100764936 /* KaKaoAuthVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +196,7 @@
 /* Begin XCBuildConfiguration section */
 		63C38FEA2B0CF5B200764936 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C390092B0CF7C000764936 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -253,6 +260,7 @@
 		};
 		63C38FEB2B0CF5B200764936 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C390092B0CF7C000764936 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -309,6 +317,7 @@
 		};
 		63C38FED2B0CF5B200764936 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C390092B0CF7C000764936 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -324,6 +333,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +349,7 @@
 		};
 		63C38FEE2B0CF5B200764936 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C390092B0CF7C000764936 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -354,6 +365,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
