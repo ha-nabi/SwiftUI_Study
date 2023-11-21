@@ -27,13 +27,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		633663452B0D37F3005F8158 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		63C38FDE2B0CF5B100764936 /* KaKao_Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaKao_Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C38FE12B0CF5B100764936 /* KaKao_LoginApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaKao_LoginApp.swift; sourceTree = "<group>"; };
 		63C38FE32B0CF5B100764936 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		63C38FE52B0CF5B200764936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63C38FE82B0CF5B200764936 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		63C390082B0CF6CE00764936 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = SOURCE_ROOT; };
-		63C390092B0CF7C000764936 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		63C3900E2B0D087100764936 /* KaKaoAuthVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaKaoAuthVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,7 +85,7 @@
 				63C3900E2B0D087100764936 /* KaKaoAuthVM.swift */,
 				63C38FE52B0CF5B200764936 /* Assets.xcassets */,
 				63C38FE72B0CF5B200764936 /* Preview Content */,
-				63C390092B0CF7C000764936 /* Config.xcconfig */,
+				633663452B0D37F3005F8158 /* Config.xcconfig */,
 			);
 			path = KaKao_Login;
 			sourceTree = "<group>";
@@ -196,7 +196,6 @@
 /* Begin XCBuildConfiguration section */
 		63C38FEA2B0CF5B200764936 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63C390092B0CF7C000764936 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -260,7 +259,6 @@
 		};
 		63C38FEB2B0CF5B200764936 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63C390092B0CF7C000764936 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -317,7 +315,6 @@
 		};
 		63C38FED2B0CF5B200764936 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63C390092B0CF7C000764936 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -349,7 +346,6 @@
 		};
 		63C38FEE2B0CF5B200764936 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63C390092B0CF7C000764936 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
