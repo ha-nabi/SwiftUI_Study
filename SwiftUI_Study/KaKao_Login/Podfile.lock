@@ -1,0 +1,111 @@
+PODS:
+  - Alamofire (5.8.1)
+  - AppAuth (1.6.2):
+    - AppAuth/Core (= 1.6.2)
+    - AppAuth/ExternalUserAgent (= 1.6.2)
+  - AppAuth/Core (1.6.2)
+  - AppAuth/ExternalUserAgent (1.6.2):
+    - AppAuth/Core
+  - GoogleSignIn (7.0.0):
+    - AppAuth (~> 1.5)
+    - GTMAppAuth (< 3.0, >= 1.3)
+    - GTMSessionFetcher/Core (< 4.0, >= 1.1)
+  - GoogleSignInSwiftSupport (7.0.0):
+    - GoogleSignIn (~> 7.0)
+  - GTMAppAuth (2.0.0):
+    - AppAuth/Core (~> 1.6)
+    - GTMSessionFetcher/Core (< 4.0, >= 1.5)
+  - GTMSessionFetcher/Core (3.1.1)
+  - KakaoSDK (2.19.0):
+    - KakaoSDKAuth (= 2.19.0)
+    - KakaoSDKCert (= 2.19.0)
+    - KakaoSDKCommon (= 2.19.0)
+    - KakaoSDKFriend (= 2.19.0)
+    - KakaoSDKNavi (= 2.19.0)
+    - KakaoSDKShare (= 2.19.0)
+    - KakaoSDKTalk (= 2.19.0)
+    - KakaoSDKTemplate (= 2.19.0)
+    - KakaoSDKUser (= 2.19.0)
+  - KakaoSDKAuth (2.19.0):
+    - KakaoSDKCommon (= 2.19.0)
+  - KakaoSDKCert (2.19.0):
+    - KakaoSDKCertCore (= 2.19.0)
+    - KakaoSDKUser (= 2.19.0)
+  - KakaoSDKCertCore (2.19.0)
+  - KakaoSDKCommon (2.19.0):
+    - KakaoSDKCommon/Common (= 2.19.0)
+    - KakaoSDKCommon/Network (= 2.19.0)
+  - KakaoSDKCommon/Common (2.19.0)
+  - KakaoSDKCommon/Network (2.19.0):
+    - Alamofire (~> 5.1)
+    - KakaoSDKCommon/Common (= 2.19.0)
+  - KakaoSDKFriend (2.19.0):
+    - KakaoSDKFriendCore (= 2.19.0)
+    - KakaoSDKUser (= 2.19.0)
+  - KakaoSDKFriendCore (2.19.0)
+  - KakaoSDKNavi (2.19.0):
+    - KakaoSDKCommon/Common (= 2.19.0)
+  - KakaoSDKShare (2.19.0):
+    - KakaoSDKCommon (= 2.19.0)
+    - KakaoSDKTemplate (= 2.19.0)
+  - KakaoSDKTalk (2.19.0):
+    - KakaoSDKTemplate (= 2.19.0)
+    - KakaoSDKUser (= 2.19.0)
+  - KakaoSDKTemplate (2.19.0):
+    - KakaoSDKCommon/Common (= 2.19.0)
+  - KakaoSDKUser (2.19.0):
+    - KakaoSDKAuth (= 2.19.0)
+  - naveridlogin-sdk-ios (4.1.6)
+
+DEPENDENCIES:
+  - GoogleSignIn
+  - GoogleSignInSwiftSupport
+  - KakaoSDK
+  - naveridlogin-sdk-ios
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AppAuth
+    - GoogleSignIn
+    - GoogleSignInSwiftSupport
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - KakaoSDK
+    - KakaoSDKAuth
+    - KakaoSDKCert
+    - KakaoSDKCertCore
+    - KakaoSDKCommon
+    - KakaoSDKFriend
+    - KakaoSDKFriendCore
+    - KakaoSDKNavi
+    - KakaoSDKShare
+    - KakaoSDKTalk
+    - KakaoSDKTemplate
+    - KakaoSDKUser
+    - naveridlogin-sdk-ios
+
+SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  AppAuth: 3bb1d1cd9340bd09f5ed189fb00b1cc28e1e8570
+  GoogleSignIn: b232380cf495a429b8095d3178a8d5855b42e842
+  GoogleSignInSwiftSupport: 6ca6e5a978faa4cd43451b6b9b38b96ab5db1734
+  GTMAppAuth: 99fb010047ba3973b7026e45393f51f27ab965ae
+  GTMSessionFetcher: e8647203b65cee28c5f73d0f473d096653945e72
+  KakaoSDK: 49b60409f1e7c0efac0904e7acb7f54a8a88ad9b
+  KakaoSDKAuth: a1b4c416e54fbfdf086db8591405a17f88ffea64
+  KakaoSDKCert: 7cd0cc7d1042b728044f651805af599b5fc5b7e0
+  KakaoSDKCertCore: 3b259b26b5d072c04b1f2164b2944e530e64fa6a
+  KakaoSDKCommon: d642a52ccf618036478643694212c072d5eceea6
+  KakaoSDKFriend: 66e0fbf2d42cf6f06a98b93d2aec13e11e9ac8b7
+  KakaoSDKFriendCore: 4a24ec8a921c3e3b3fa615c801354cf432eddabc
+  KakaoSDKNavi: e2788a4c01a9981d46a18d1bfe6196a8f47f9507
+  KakaoSDKShare: 07a70ea20cea3b1c507991eac600800a42609590
+  KakaoSDKTalk: 9ac8cbc6e396a3e4d7d66099ba22ffbf3095d8ca
+  KakaoSDKTemplate: bb6cc31aec26a7f876fb66ee4c8882f9ce1ca2d5
+  KakaoSDKUser: f21d7c3baf7cf2d08784cafc97aa9d49f2141624
+  naveridlogin-sdk-ios: cdd34e3585a3d5aaf37c1d84c1f41faba4a25d1a
+
+PODFILE CHECKSUM: d66165348eed5be0fd53242e792d633ca3d30753
+
+COCOAPODS: 1.14.3

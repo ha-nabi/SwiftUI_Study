@@ -1,0 +1,6 @@
+framework module Pods_KaKao_Login {
+  umbrella header "Pods-KaKao_Login-umbrella.h"
+
+  export *
+  module * { export * }
+}
