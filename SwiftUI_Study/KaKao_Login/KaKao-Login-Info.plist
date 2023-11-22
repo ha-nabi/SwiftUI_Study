@@ -11,7 +11,7 @@
 			<string>kakaologin</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>kakao178f4e1b9d68c29bb02c9ec498f42fde</string>
+				<string>kakao</string>
 			</array>
 		</dict>
 		<dict>
@@ -31,12 +31,12 @@
 			<string>Google Sign in</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.googleusercontent.apps.26658665343-ddp7r6kna0h1vqih0muq452ol5dhno00</string>
+				<string>com.googleusercontent.apps.</string>
 			</array>
 		</dict>
 	</array>
 	<key>GIDClientID</key>
-	<string>26658665343-ddp7r6kna0h1vqih0muq452ol5dhno00.apps.googleusercontent.com</string>
+	<string>.apps.googleusercontent.com</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>naversearchapp</string>
