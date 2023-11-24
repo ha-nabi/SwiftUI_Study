@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct KakaoPageView: View {
-    
+    @Environment(\.dismiss) private var dismiss
     @StateObject var kakaoAuthVM: KaKaoAuthVM = KaKaoAuthVM()
     
     var body: some View {

@@ -26,7 +26,7 @@
 		63C38FE32B0CF5B100764936 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		63C38FE52B0CF5B200764936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63C38FE82B0CF5B200764936 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		63C390082B0CF6CE00764936 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = SOURCE_ROOT; };
+		63C390082B0CF6CE00764936 /* kakaoinfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = kakaoinfo.plist; sourceTree = SOURCE_ROOT; };
 		63C3900E2B0D087100764936 /* KaKaoAuthVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaKaoAuthVM.swift; sourceTree = "<group>"; };
 		63D429452B0DCD7400E7876B /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		63D429492B0DCE7B00E7876B /* NextPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextPageView.swift; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 			children = (
 				63C38FE12B0CF5B100764936 /* KaKao_LoginApp.swift */,
 				63C38FE32B0CF5B100764936 /* ContentView.swift */,
-				63C390082B0CF6CE00764936 /* info.plist */,
+				63C390082B0CF6CE00764936 /* kakaoinfo.plist */,
 				63D429482B0DCE2800E7876B /* Kakao */,
 				63D429472B0DCD7900E7876B /* Google */,
 				63C38FE52B0CF5B200764936 /* Assets.xcassets */,

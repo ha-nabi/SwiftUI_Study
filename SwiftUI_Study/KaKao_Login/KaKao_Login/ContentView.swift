@@ -11,6 +11,7 @@ import GoogleSignIn
 struct ContentView: View {
     
     @StateObject var kakaoAuthVM: KaKaoAuthVM = KaKaoAuthVM()
+    @State private var isLoggedIn: Bool = false
     
     // 구글 로그인 상태
     @State private var isLogined: Bool = false
@@ -36,6 +37,7 @@ struct ContentView: View {
                     Image("logo")
                         .padding()
                     
+                    // 카카오
                     Button {
                         kakaoAuthVM.handleKakaoLogin()
                     } label: {
@@ -44,6 +46,7 @@ struct ContentView: View {
                             .frame(width: 277, height: 46)
                     }
                     
+                    // 네이버
                     Button {
                         
                     } label: {
@@ -52,6 +55,7 @@ struct ContentView: View {
                             .frame(width: 277, height: 46)
                     }
                     
+                    // 구글
                     Button {
                         googleLogin()
                     } label: {
@@ -65,7 +69,7 @@ struct ContentView: View {
                     NextPageView(userData: $userData)
                 })
                 .onAppear {
-                    // 로그인 상태 체크
+                    // 구글 로그인 상태 체크
                     checkState()
                 }
                 .alert(LocalizedStringKey("로그인 실패"), isPresented: $isAlert) {
@@ -77,7 +81,7 @@ struct ContentView: View {
         }
     }
     
-    // 상태 체크
+    // 구글 상태 체크
     func checkState() {
         GIDSignIn.sharedInstance.restorePreviousSignIn { [self] user, error in
             if error != nil || user == nil {
