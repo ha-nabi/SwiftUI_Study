@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63027BCC2B11CA1300B702F4 /* movieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63027BCB2B11CA1300B702F4 /* movieModel.swift */; };
+		63027BCE2B11CA2500B702F4 /* NetflixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63027BCD2B11CA2500B702F4 /* NetflixView.swift */; };
+		63027BD22B11D8FC00B702F4 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63027BD12B11D8FC00B702F4 /* GridView.swift */; };
+		63027BD42B124AC100B702F4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63027BD32B124AC100B702F4 /* DetailView.swift */; };
 		6312B3D42AFB99C100BCB516 /* Discover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6312B3D32AFB99C100BCB516 /* Discover.swift */; };
 		6354EF3B2AEE554400176E43 /* TripCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6354EF3A2AEE554400176E43 /* TripCard.swift */; };
 		6354EF3D2AEE561E00176E43 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6354EF3C2AEE561E00176E43 /* Main.swift */; };
@@ -14,7 +18,6 @@
 		63929E3D2AF546DF0042B34C /* checkyourmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63929E3C2AF546DF0042B34C /* checkyourmail.swift */; };
 		63C0CF502AED1ED100CBADAD /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C0CF4F2AED1ED100CBADAD /* Tab.swift */; };
 		63C0CF522AED201000CBADAD /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C0CF512AED201000CBADAD /* Home.swift */; };
-		63D086952B05FE8800B099FB /* SpinAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D086942B05FE8800B099FB /* SpinAnimation.swift */; };
 		63D086972B06045F00B099FB /* Spin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D086962B06045F00B099FB /* Spin.swift */; };
 		63DB136F2AED06B70044274A /* SwiftUI_StudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB136E2AED06B70044274A /* SwiftUI_StudyApp.swift */; };
 		63DB13732AED06B80044274A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63DB13722AED06B80044274A /* Assets.xcassets */; };
@@ -50,6 +53,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63027BCB2B11CA1300B702F4 /* movieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieModel.swift; sourceTree = "<group>"; };
+		63027BCD2B11CA2500B702F4 /* NetflixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixView.swift; sourceTree = "<group>"; };
+		63027BD12B11D8FC00B702F4 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		63027BD32B124AC100B702F4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		6312B3D32AFB99C100BCB516 /* Discover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discover.swift; sourceTree = "<group>"; };
 		6354EF3A2AEE554400176E43 /* TripCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCard.swift; sourceTree = "<group>"; };
 		6354EF3C2AEE561E00176E43 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
@@ -57,7 +64,6 @@
 		63929E3C2AF546DF0042B34C /* checkyourmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkyourmail.swift; sourceTree = "<group>"; };
 		63C0CF4F2AED1ED100CBADAD /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		63C0CF512AED201000CBADAD /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		63D086942B05FE8800B099FB /* SpinAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinAnimation.swift; sourceTree = "<group>"; };
 		63D086962B06045F00B099FB /* Spin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spin.swift; sourceTree = "<group>"; };
 		63DB136B2AED06B70044274A /* SwiftUI_Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DB136E2AED06B70044274A /* SwiftUI_StudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_StudyApp.swift; sourceTree = "<group>"; };
@@ -103,6 +109,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63027BCA2B11CA0600B702F4 /* Netfilx */ = {
+			isa = PBXGroup;
+			children = (
+				63027BD62B1262B500B702F4 /* View */,
+				63027BD52B1262AD00B702F4 /* Model */,
+			);
+			path = Netfilx;
+			sourceTree = "<group>";
+		};
+		63027BD52B1262AD00B702F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				63027BCB2B11CA1300B702F4 /* movieModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		63027BD62B1262B500B702F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63027BCD2B11CA2500B702F4 /* NetflixView.swift */,
+				63027BD32B124AC100B702F4 /* DetailView.swift */,
+				63027BD12B11D8FC00B702F4 /* GridView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		6354EF382AEE552D00176E43 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,7 +159,6 @@
 				6312B3D32AFB99C100BCB516 /* Discover.swift */,
 				63EC172F2B00DC8D008DD933 /* DoubleDice.swift */,
 				6389C3732B02626D001C156F /* ScissorsGame.swift */,
-				63D086942B05FE8800B099FB /* SpinAnimation.swift */,
 				63D086962B06045F00B099FB /* Spin.swift */,
 			);
 			path = PracticeView;
@@ -171,6 +203,7 @@
 		63DB136D2AED06B70044274A /* SwiftUI_Study */ = {
 			isa = PBXGroup;
 			children = (
+				63027BCA2B11CA0600B702F4 /* Netfilx */,
 				63EC16842AFD3D72008DD933 /* LifeCycle */,
 				63929E3E2AF547090042B34C /* PracticeView */,
 				63E274D52AED4D55008182ED /* CarouselScroll */,
@@ -379,14 +412,17 @@
 				63EC16912AFD3DA9008DD933 /* FirstTabView.swift in Sources */,
 				63EC16902AFD3DA9008DD933 /* Test.swift in Sources */,
 				6354EF3B2AEE554400176E43 /* TripCard.swift in Sources */,
+				63027BD42B124AC100B702F4 /* DetailView.swift in Sources */,
+				63027BD22B11D8FC00B702F4 /* GridView.swift in Sources */,
+				63027BCC2B11CA1300B702F4 /* movieModel.swift in Sources */,
 				63EC168C2AFD3DA9008DD933 /* TimerFirst.swift in Sources */,
 				6354EF3D2AEE561E00176E43 /* Main.swift in Sources */,
 				63DB136F2AED06B70044274A /* SwiftUI_StudyApp.swift in Sources */,
 				63EC16922AFD3DA9008DD933 /* TimerSecond.swift in Sources */,
 				6312B3D42AFB99C100BCB516 /* Discover.swift in Sources */,
 				63EC17302B00DC8D008DD933 /* DoubleDice.swift in Sources */,
+				63027BCE2B11CA2500B702F4 /* NetflixView.swift in Sources */,
 				63EC168D2AFD3DA9008DD933 /* TimerData.swift in Sources */,
-				63D086952B05FE8800B099FB /* SpinAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
