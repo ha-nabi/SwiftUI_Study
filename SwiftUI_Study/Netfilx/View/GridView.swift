@@ -16,7 +16,7 @@ struct GridView: View {
         
             HStack(spacing: 20) {
                 VStack {
-                    ZStack(alignment: .topTrailing) {
+                    ZStack {
                         Image(movie.image)
                             .resizable()
                             .aspectRatio(contentMode: .fit)

@@ -11,6 +11,8 @@
 		63027BCE2B11CA2500B702F4 /* NetflixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63027BCD2B11CA2500B702F4 /* NetflixView.swift */; };
 		63027BD22B11D8FC00B702F4 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63027BD12B11D8FC00B702F4 /* GridView.swift */; };
 		63027BD42B124AC100B702F4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63027BD32B124AC100B702F4 /* DetailView.swift */; };
+		63027BD92B13CA1E00B702F4 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63027BD82B13CA1E00B702F4 /* TaskManager.swift */; };
+		63027BDD2B13CA7700B702F4 /* Todolist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63027BDC2B13CA7700B702F4 /* Todolist.swift */; };
 		6312B3D42AFB99C100BCB516 /* Discover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6312B3D32AFB99C100BCB516 /* Discover.swift */; };
 		6354EF3B2AEE554400176E43 /* TripCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6354EF3A2AEE554400176E43 /* TripCard.swift */; };
 		6354EF3D2AEE561E00176E43 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6354EF3C2AEE561E00176E43 /* Main.swift */; };
@@ -57,6 +59,8 @@
 		63027BCD2B11CA2500B702F4 /* NetflixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixView.swift; sourceTree = "<group>"; };
 		63027BD12B11D8FC00B702F4 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		63027BD32B124AC100B702F4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		63027BD82B13CA1E00B702F4 /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+		63027BDC2B13CA7700B702F4 /* Todolist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todolist.swift; sourceTree = "<group>"; };
 		6312B3D32AFB99C100BCB516 /* Discover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discover.swift; sourceTree = "<group>"; };
 		6354EF3A2AEE554400176E43 /* TripCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCard.swift; sourceTree = "<group>"; };
 		6354EF3C2AEE561E00176E43 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
@@ -136,6 +140,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		63027BD72B13CA0B00B702F4 /* Todolist */ = {
+			isa = PBXGroup;
+			children = (
+				63027BD82B13CA1E00B702F4 /* TaskManager.swift */,
+				63027BDC2B13CA7700B702F4 /* Todolist.swift */,
+			);
+			path = Todolist;
+			sourceTree = "<group>";
+		};
 		6354EF382AEE552D00176E43 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +216,7 @@
 		63DB136D2AED06B70044274A /* SwiftUI_Study */ = {
 			isa = PBXGroup;
 			children = (
+				63027BD72B13CA0B00B702F4 /* Todolist */,
 				63027BCA2B11CA0600B702F4 /* Netfilx */,
 				63EC16842AFD3D72008DD933 /* LifeCycle */,
 				63929E3E2AF547090042B34C /* PracticeView */,
@@ -412,10 +426,12 @@
 				63EC16912AFD3DA9008DD933 /* FirstTabView.swift in Sources */,
 				63EC16902AFD3DA9008DD933 /* Test.swift in Sources */,
 				6354EF3B2AEE554400176E43 /* TripCard.swift in Sources */,
+				63027BDD2B13CA7700B702F4 /* Todolist.swift in Sources */,
 				63027BD42B124AC100B702F4 /* DetailView.swift in Sources */,
 				63027BD22B11D8FC00B702F4 /* GridView.swift in Sources */,
 				63027BCC2B11CA1300B702F4 /* movieModel.swift in Sources */,
 				63EC168C2AFD3DA9008DD933 /* TimerFirst.swift in Sources */,
+				63027BD92B13CA1E00B702F4 /* TaskManager.swift in Sources */,
 				6354EF3D2AEE561E00176E43 /* Main.swift in Sources */,
 				63DB136F2AED06B70044274A /* SwiftUI_StudyApp.swift in Sources */,
 				63EC16922AFD3DA9008DD933 /* TimerSecond.swift in Sources */,
