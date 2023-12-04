@@ -17,7 +17,6 @@ struct DetailView: View {
             Image(movie.image)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .ignoresSafeArea(.all)
             VStack {
                 HStack {
                     Button {
