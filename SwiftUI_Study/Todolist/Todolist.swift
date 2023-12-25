@@ -28,7 +28,7 @@ struct Todolist: View {
                             Button(action: {
                                 taskManager.deleteTask(at: IndexSet([taskManager.tasks.firstIndex(of: task)!]))
                             }) {
-                                Text("Delete")
+                                Text("Delete.")
                             }
                         }
                 }
